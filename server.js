@@ -4,7 +4,7 @@ require("dotenv").config();
 const app = express();
 const port = 3000;
 
-const call_period = 10000;
+const call_period = 60000;
 
 const server_caller = async () => {
   let server_url = await JSON.parse(process.env.server_urls);
