@@ -4,7 +4,7 @@ const app = express();
 const port = 3001;
 require("dotenv").config();
 
-const call_period = 10000;
+const call_period = 60000;
 const server_caller = async () => {
   let res = await axios.get("https://repeatserver-7anv.onrender.com/");
 };
