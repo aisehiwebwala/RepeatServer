@@ -10,7 +10,7 @@ const server_caller = async () => {
 };
 
 app.get("/", (req, res) =>{
-    setTimeout(server_caller,call_period)
+    // setTimeout(server_caller,call_period)
     res.send("Hello World s2!");
 } );
 app.listen(port, () => console.log(`Example app listening on port ${process.env.port}!`));
