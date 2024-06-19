@@ -4,7 +4,8 @@
   "description": "to always keep the server awake",
   "main": "index.js",
   "scripts": {
-    "build":"npm i"
+    "build":"npm i",
+    "prod":"node server.js"
   },
   "author": "",
   "license": "ISC",
