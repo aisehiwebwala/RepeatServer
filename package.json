@@ -4,7 +4,7 @@
   "description": "to always keep the server awake",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"npm i"
   },
   "author": "",
   "license": "ISC",
