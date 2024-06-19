@@ -18,7 +18,7 @@ const server_caller_input = () => {
 };
 
 app.get("/", (req, res) => {
-  server_caller_input();
+  // server_caller_input();
   res.send("Hello Dunia!");
 });
 app.listen(port, () => console.log(`Example app listening on port ${process.env.port}!`));
